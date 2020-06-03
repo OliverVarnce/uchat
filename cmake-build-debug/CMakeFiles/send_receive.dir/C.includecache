@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ws.h
+stdbool.h
+-
+stdint.h
+-
+
+/Users/mac/Desktop/wServer/example/send_receive.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+unistd.h
+-
+ws.h
+-
+

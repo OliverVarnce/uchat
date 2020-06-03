@@ -1,0 +1,66 @@
+<html>
+<head>
+	<script>
+	/* WebSocket. */
+	var ws;
+
+	/* Establish connection. */
+	function doConnect(addr)
+	{
+		/* Message to be sent. */
+		var msg;
+
+		/* Do connection. */
+		ws = new WebSocket(addr);
+
+		/* Register events. */
+		ws.onopen = function()
+		{
+			document.getElementById("taLog").value += ("Connection opened\n");
+		};
+
+		/* Deals with messages. */
+		ws.onmessage = function (evt) 
+		{	
+			document.getElementById("taLog").value += ("Recv: " + evt.data + "\n");
+		};
+
+		ws.onclose = function()
+		{
+			document.getElementById("taLog").value += ("Connection closed\n");
+		};
+	}
+
+	document.addEventListener("DOMContentLoaded", function(event)
+	{
+			document.getElementById("btConn").onclick = function()
+			{
+				var txt = document.getElementById("txtServer").value;
+				doConnect(txt);
+			};
+		
+			document.getElementById("btMsg").onclick = function()
+			{
+				var txt = document.getElementById("txtMsg").value;
+				var log = document.getElementById("taLog").value;
+
+				ws.send(txt);
+				document.getElementById("taLog").value += ("Send: " + txt + "\n");
+			};
+	});
+	</script>
+</head>
+<body>
+	
+	<div id="header">
+		<h1 align="left">UCHAT WebClient v1.1</h1>
+		Server: <input type="text" id="txtServer" value="ws://127.0.0.1:8080">
+		<input type="button" id="btConn" name="btConn" value="Connect!"><br /><br />
+
+		Message: <input type="text" id="txtMsg" value="">
+		<input type="button" id="btMsg" name="btMsg" value="Send"><br /><br />
+
+		<textarea rows="10" cols="50" id="taLog" name="taLog"></textarea>
+	</div>
+</body>
+</html>

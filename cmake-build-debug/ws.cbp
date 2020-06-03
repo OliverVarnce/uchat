@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ws"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="send_receive">
+				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/send_receive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/Desktop/wServer/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 send_receive"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="send_receive/fast">
+				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/send_receive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/Desktop/wServer/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 send_receive/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ws">
+				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/libws.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/Desktop/wServer/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ws"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ws/fast">
+				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/libws.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/Desktop/wServer/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ws/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mac/Desktop/wServer/example/send_receive.c">
+			<Option target="send_receive"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/wServer/src/base64/base64.c">
+			<Option target="ws"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/wServer/src/handshake/handshake.c">
+			<Option target="ws"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/wServer/src/sha1/sha1.c">
+			<Option target="ws"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/wServer/src/ws.c">
+			<Option target="ws"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/wServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
