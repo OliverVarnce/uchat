@@ -15,12 +15,12 @@ SRC     =   $(addprefix $(SRC_DIR)/,\
             libs/base64.c \
             libs/handshake.c \
             libs/sha1.c \
-            libs/sqlite3.c)
+            sqlite3/sqlite3.c)
 
 OBJ     =    base64.o \
              handshake.o \
              sha1.o \
-             sqlite3.c
+             sqlite3.o
 CC = clang
 
 CFLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
@@ -32,7 +32,8 @@ install : libmx/libmx.a usrv
 libmx/libmx.a:
 	@make -C $(LIBMXF)
 
-usrv : $(SRC) inc/ws.h libmx/libmx.a
+
+usrv : $(SRC) inc/uchat.h libmx/libmx.a
 	@$(CC) $(CFLAGS) -c $(SRC) $(foreach d, $(INC), -I $d)
 	@$(CC) $(CFLAGS) $(OBJ) $(LIBMXF)/$(LIB_NAME) -o $(APP_NAME)
 	@printf "\r\33[2K$@ \033[32;1mcreated\033[0m\n"

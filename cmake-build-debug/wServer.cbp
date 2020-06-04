@@ -8,48 +8,47 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/UCHAT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/UCHAT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option working_dir="/Users/mac/Desktop/UCHAT/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wServer">
-				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/wServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option output="/Users/mac/Desktop/UCHAT/cmake-build-debug/wServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/UCHAT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mac/Desktop/wServer/."/>
-					<Add directory="/Users/mac/Desktop/wServer/inc"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx/inc"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx/src"/>
-					<Add directory="/Users/mac/Desktop/wServer/src"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/inc"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx/inc"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx/src"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/src"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -57,25 +56,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 wServer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 wServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wServer/fast">
-				<Option output="/Users/mac/Desktop/wServer/cmake-build-debug/wServer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/Desktop/wServer/cmake-build-debug"/>
+				<Option output="/Users/mac/Desktop/UCHAT/cmake-build-debug/wServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/Desktop/UCHAT/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mac/Desktop/wServer/."/>
-					<Add directory="/Users/mac/Desktop/wServer/inc"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx/inc"/>
-					<Add directory="/Users/mac/Desktop/wServer/libmx/src"/>
-					<Add directory="/Users/mac/Desktop/wServer/src"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/inc"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx/inc"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/libmx/src"/>
+					<Add directory="/Users/mac/Desktop/UCHAT/src"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -83,221 +81,233 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 wServer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/wServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 wServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/Desktop/UCHAT/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mac/Desktop/wServer/inc/uchat.h">
+		<Unit filename="/Users/mac/Desktop/UCHAT/inc/sqlite3.h">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/inc/libmx.h">
+		<Unit filename="/Users/mac/Desktop/UCHAT/inc/sqlite3ext.h">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_atoi.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/inc/uchat.h">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_binary_search.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/inc/libmx.h">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_bubble_sort.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_atoi.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_count_substr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_binary_search.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_count_words.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_bubble_sort.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_create_node.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_count_substr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_del_extra_spaces.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_count_words.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_del_strarr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_create_node.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_delete_list.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_del_extra_spaces.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_file_to_str.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_del_strarr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_foreach.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_delete_list.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_get_char_index.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_file_to_str.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_get_substr_index.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_foreach.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_hex_to_nbr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_get_char_index.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_isalpha.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_get_substr_index.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_isdigit.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_hex_to_nbr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_isspace.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_isalpha.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_itoa.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_isdigit.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_list_size.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_isspace.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memccpy.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_itoa.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memchr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_list_size.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memcmp.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memccpy.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memcpy.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memchr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memmem.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memcmp.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memmove.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memcpy.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memrchr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memmem.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_memset.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memmove.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_nbr_to_hex.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memrchr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_pop_back.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_memset.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_pop_front.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_nbr_to_hex.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_pow.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_pop_back.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_print_strarr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_pop_front.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_print_unicode.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_pow.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_printchar.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_print_strarr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_printerr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_print_unicode.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_printint.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_printchar.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_printstr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_printerr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_push_back.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_printint.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_push_front.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_printstr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_quicksort.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_push_back.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_read_line.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_push_front.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_realloc.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_quicksort.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_replace_substr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_read_line.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_sort_list.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_realloc.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_sqrt.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_replace_substr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_str_reverse.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_sort_list.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strcat.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_sqrt.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strcmp.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_str_reverse.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strcpy.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strcat.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strdel.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strcmp.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strdup.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strcpy.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strjoin.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strdel.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strlen.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strdup.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strncat.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strjoin.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strncmp.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strlen.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strncpy.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strncat.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strndup.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strncmp.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strnew.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strncpy.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strsplit.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strndup.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strstr.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strnew.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_strtrim.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strsplit.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/libmx/src/mx_swap_char.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strstr.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/src/libs/base64.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_strtrim.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/src/libs/handshake.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/libmx/src/mx_swap_char.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/src/libs/sha1.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/libs/base64.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/src/sqlite3/sqlite3.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/libs/handshake.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/src/uchat_server.c">
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/libs/sha1.c">
 			<Option target="wServer"/>
 		</Unit>
-		<Unit filename="/Users/mac/Desktop/wServer/CMakeLists.txt">
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/libs/uchat.c">
+			<Option target="wServer"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/models/mx_recieve_message.c">
+			<Option target="wServer"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/sqlite3/sqlite3.c">
+			<Option target="wServer"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/UCHAT/src/uchat_server.c">
+			<Option target="wServer"/>
+		</Unit>
+		<Unit filename="/Users/mac/Desktop/UCHAT/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -3,33 +3,6 @@ project(wServer C)
 
 set(CMAKE_C_STANDARD 11)
 
-macro (FindSQLite3)
-    # Look for the library.
-    # find_path(SQLITE3_INCLUDE_DIR NAMES libsqlite3)
-
-    find_path(SQLITE3_INCLUDE_DIR NAMES sqlite3.h)
-
-    find_library(SQLITE3_LIBRARY NAMES libsqlite3)
-
-    # Handle the QUIETLY and REQUIRED arguments and set SQLITE3_FOUND to TRUE if all listed variables are TRUE.
-    include(FindPackageHandleStandardArgs)
-    find_package_handle_standard_args(SQLITE3 DEFAULT_MSG SQLITE3_LIBRARY SQLITE3_INCLUDE_DIR)
-
-    # Copy the results to the output variables.
-    if (SQLITE3_FOUND)
-        set (SQLITE3_LIBRARIES ${SQLITE3_LIBRARY})
-        set (SQLITE3_INCLUDE_DIRS ${SQLITE3_INCLUDE_DIR})
-        message(SQLite3 Found ${SQLITE3_INCLUDE_DIRS} ${SQLITE3_LIBRARY})
-    else (SQLITE3_FOUND)
-        set (SQLITE3_LIBRARIES)
-        set (SQLITE3_INCLUDE_DIRS)
-        message(SQLite3 not Found)
-    endif (SQLITE3_FOUND)
-
-    mark_as_advanced (SQLITE3_INCLUDE_DIRS SQLITE3_LIBRARIES)
-endmacro()
-
-include_directories(.)
 include_directories(inc)
 include_directories(libmx)
 include_directories(libmx/inc)
@@ -37,6 +10,8 @@ include_directories(libmx/src)
 include_directories(src)
 
 add_executable(wServer
+        inc/sqlite3.h
+        inc/sqlite3ext.h
         inc/uchat.h
         libmx/inc/libmx.h
         libmx/src/mx_atoi.c
@@ -104,5 +79,7 @@ add_executable(wServer
         src/libs/base64.c
         src/libs/handshake.c
         src/libs/sha1.c
+        src/libs/uchat.c
+        src/models/mx_recieve_message.c
         src/sqlite3/sqlite3.c
         src/uchat_server.c)

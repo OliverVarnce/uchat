@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Desktop/wServer
+CMAKE_SOURCE_DIR = /Users/mac/Desktop/UCHAT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Desktop/wServer/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/Desktop/UCHAT/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/wServer/cmake-build-debug/CMakeFiles /Users/mac/Desktop/wServer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/UCHAT/cmake-build-debug/CMakeFiles /Users/mac/Desktop/UCHAT/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/wServer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Desktop/UCHAT/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1878,6 +1878,60 @@ src/libs/sha1.c.s:
 	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/libs/sha1.c.s
 .PHONY : src/libs/sha1.c.s
 
+src/libs/uchat.o: src/libs/uchat.c.o
+
+.PHONY : src/libs/uchat.o
+
+# target to build an object file
+src/libs/uchat.c.o:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/libs/uchat.c.o
+.PHONY : src/libs/uchat.c.o
+
+src/libs/uchat.i: src/libs/uchat.c.i
+
+.PHONY : src/libs/uchat.i
+
+# target to preprocess a source file
+src/libs/uchat.c.i:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/libs/uchat.c.i
+.PHONY : src/libs/uchat.c.i
+
+src/libs/uchat.s: src/libs/uchat.c.s
+
+.PHONY : src/libs/uchat.s
+
+# target to generate assembly for a file
+src/libs/uchat.c.s:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/libs/uchat.c.s
+.PHONY : src/libs/uchat.c.s
+
+src/models/mx_recieve_message.o: src/models/mx_recieve_message.c.o
+
+.PHONY : src/models/mx_recieve_message.o
+
+# target to build an object file
+src/models/mx_recieve_message.c.o:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o
+.PHONY : src/models/mx_recieve_message.c.o
+
+src/models/mx_recieve_message.i: src/models/mx_recieve_message.c.i
+
+.PHONY : src/models/mx_recieve_message.i
+
+# target to preprocess a source file
+src/models/mx_recieve_message.c.i:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.i
+.PHONY : src/models/mx_recieve_message.c.i
+
+src/models/mx_recieve_message.s: src/models/mx_recieve_message.c.s
+
+.PHONY : src/models/mx_recieve_message.s
+
+# target to generate assembly for a file
+src/models/mx_recieve_message.c.s:
+	$(MAKE) -f CMakeFiles/wServer.dir/build.make CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.s
+.PHONY : src/models/mx_recieve_message.c.s
+
 src/sqlite3/sqlite3.o: src/sqlite3/sqlite3.c.o
 
 .PHONY : src/sqlite3/sqlite3.o
@@ -2136,6 +2190,12 @@ help:
 	@echo "... src/libs/sha1.o"
 	@echo "... src/libs/sha1.i"
 	@echo "... src/libs/sha1.s"
+	@echo "... src/libs/uchat.o"
+	@echo "... src/libs/uchat.i"
+	@echo "... src/libs/uchat.s"
+	@echo "... src/models/mx_recieve_message.o"
+	@echo "... src/models/mx_recieve_message.i"
+	@echo "... src/models/mx_recieve_message.s"
 	@echo "... src/sqlite3/sqlite3.o"
 	@echo "... src/sqlite3/sqlite3.i"
 	@echo "... src/sqlite3/sqlite3.s"

@@ -52,7 +52,11 @@ fcntl.h
 malloc/malloc.h
 -
 
-/Users/mac/Desktop/wServer/src/uchat_server.c
+/Users/mac/Desktop/UCHAT/src/libs/uchat.c
 uchat.h
-/Users/mac/Desktop/wServer/src/uchat.h
+/Users/mac/Desktop/UCHAT/src/libs/uchat.h
+
+/Users/mac/Desktop/UCHAT/src/models/mx_recieve_message.c
+uchat.h
+/Users/mac/Desktop/UCHAT/src/models/uchat.h
 

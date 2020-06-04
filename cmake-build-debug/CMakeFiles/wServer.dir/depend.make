@@ -202,6 +202,16 @@ CMakeFiles/wServer.dir/src/libs/sha1.c.o: ../inc/uchat.h
 CMakeFiles/wServer.dir/src/libs/sha1.c.o: ../libmx/inc/libmx.h
 CMakeFiles/wServer.dir/src/libs/sha1.c.o: ../src/libs/sha1.c
 
+CMakeFiles/wServer.dir/src/libs/uchat.c.o: ../inc/sqlite3.h
+CMakeFiles/wServer.dir/src/libs/uchat.c.o: ../inc/uchat.h
+CMakeFiles/wServer.dir/src/libs/uchat.c.o: ../libmx/inc/libmx.h
+CMakeFiles/wServer.dir/src/libs/uchat.c.o: ../src/libs/uchat.c
+
+CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o: ../inc/sqlite3.h
+CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o: ../inc/uchat.h
+CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o: ../libmx/inc/libmx.h
+CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o: ../src/models/mx_recieve_message.c
+
 CMakeFiles/wServer.dir/src/sqlite3/sqlite3.c.o: ../src/sqlite3/sqlite3.c
 
 CMakeFiles/wServer.dir/src/uchat_server.c.o: ../inc/sqlite3.h

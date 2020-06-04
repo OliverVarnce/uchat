@@ -64,6 +64,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/wServer.dir/src/libs/base64.c.o"
   "CMakeFiles/wServer.dir/src/libs/handshake.c.o"
   "CMakeFiles/wServer.dir/src/libs/sha1.c.o"
+  "CMakeFiles/wServer.dir/src/libs/uchat.c.o"
+  "CMakeFiles/wServer.dir/src/models/mx_recieve_message.c.o"
   "CMakeFiles/wServer.dir/src/sqlite3/sqlite3.c.o"
   "CMakeFiles/wServer.dir/src/uchat_server.c.o"
   "wServer"
